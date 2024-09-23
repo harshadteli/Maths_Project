@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body{
+    background-color: #c4c4c4;
+}
+.sourcecode{
+    background-color: white;
+}
+.head{
+    position: relative;
+     /* top: 50%;
+     right: 50%; */
+     transform: translate(50%,50%);
+     text-transform: uppercase;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 40px;
+     font-weight: 700;
+     color: #f5f5f5;
+     text-shadow: 1px 1px 1px #919191,
+     1px 1px #919191,
+     1px 4px 1px #919191,
+     1px 5px 1px #919191,
+     1px 6px 1px #919191,
+     1px 7px 1px #919191,
+     1px 8px 1px #919191,
+     1px 9px 1px #919191,
+     1px 10px 1px #919191,
+     1px 18px 6px rgba(16,16,16,0.4),
+     1px 22px 10px rgba(16,16,16,0.4),
+     1px 25px 35px rgba(16,16,16,0.4),
+     1px 35px 60px rgba(16,16,16,0.4);
+    
+  
+}
+.views{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff004f;
+    color: #fff;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.profile-card{
+    width: 100%;
+    max-width: 450%;
+    text-align: center;
+    background: #fff;
+    color: #333;
+}
+.cover-pic{
+    display: block;
+    width: 100%;
+}
+.profile-pic{
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -70px;
+    transition: box-shadow 0.5s;
+    box-shadow: 0 0 0 0px #ff004f;
+}
+.profile-pic:hover{
+    box-shadow:0 0 0 5px #ff004f;
+}
+.profile-card h1{
+    font-weight: 600;
+}
+.main{
+    position: absolute;
+}
+.search{
+    border: 3px solid #32e17c;
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+.container{
+    display: inline-block;
+}
+.typewriter{
+    font-size: 13px;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 2px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+      typing 4s steps(18),
+      cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+        
+    }
+    img{
+        width: 370px;
+    }
